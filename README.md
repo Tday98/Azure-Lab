@@ -1,1 +1,3 @@
-# Azure-Lab
+# Azure-Lab SOC + Honeynet w/ Live Traffic
+## Overview
+For this homelab I used Azure to create a honeynet with an Ubuntu Linux VM and Microsoft Windows 10 VM. I ingested logs from different resources within Azure into Log Analytics workspace. I used Microsoft Sentinel (SIEM) to produce attack maps, trigger alerts, and incidents. I gathered attack data over 24 hours in the insecure environment. Then I applied common security controls to harden the honeynet and repeated a 24 hour window to compare the data with the insecure environment. I used the data to create an attack map which showed attackers ip locations. I compared the two honeynets to show the improvements I made with the security controls.
