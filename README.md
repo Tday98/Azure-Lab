@@ -28,7 +28,7 @@ Architecture:
 - Blob Storage
 - Microsoft Sentinel
 
-The above architecture was left exposed to the public internet for 24 hours. The NSGs were left wide open and the built-in windows firewalls were displayed. All resources were deployed with public endpoints. Data was collected and sent to log analytics to be aggregated and then were viewed through Microsoft Seninel (SIEM).
+The above architecture was left exposed to the public internet for 24 hours. The NSGs were left wide open and the built-in windows firewalls were disabled. All resources were deployed with public endpoints. Data was collected and sent to log analytics to be aggregated and then were viewed through Microsoft Sentinel (SIEM).
 
 Hardening the environment was done by: 
 1. Only allowing access to the VMs from my IPv4 address via inbound rules on the NSG.
