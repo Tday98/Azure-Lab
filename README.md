@@ -79,7 +79,7 @@ Stop Time	2024-05-20 17:00
 Total secure score was raised from 45% to 77% post hardening. Also, NIST SP 800 53 R5 compliance standard was used as a guideline to help improve security.
 
 ## Conclusion
-I used Azure to build a honeypot/honeynet architecture. I used Sentinel to raise incidences and used Log Analytics to query logs from all the resources. The system was ran 24 hours with no security and 24 hours with security and a comparison was made. I used Microsoft Cloud Security Benchmark and NIST SP 800 53 R5 compliance standards to improve security of the system.
+I used Azure to build a honeypot/honeynet architecture. I used Sentinel to raise incidences and used Log Analytics to query logs from all the resources. The system was run 24 hours with no security and 24 hours with security and a comparison was made. I used Microsoft Cloud Security Benchmark and NIST SP 800 53 R5 compliance standards to improve security of the system.
 
 ### Credits
 Credits to Leveld and Josh Madakor for putting together this homelab for students like myself to follow and learn a lot about cloud cybersecurity.
